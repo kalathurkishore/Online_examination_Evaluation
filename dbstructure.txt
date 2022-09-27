@@ -1,0 +1,9 @@
+database name:quiz_oops
+                  |
+                  |
+                  |               table       column1                          column2  ------------------------------------------------- columns               
+                  |-->table1:|-->category -->id int(10) PKEY AUTOINCREEMENT,cat_name varchar(80)
+                      table2:|-->marks    -->id int(10) PKEY AUTOINCREEMENT,rollno varchar(10) UNIQUE,marks int(10),timer varchar(100) 
+                      table3:|-->questions-->id int(100) PKEY AUTOINCREEMENT,question varchar(200),ans1 varchar(100),ans1 varchar(100),ans2 varchar(100),ans3 varchar(100),ans4 varchar(100),ans int(10),cat_id int(10)
+                      table4:|-->signup   -->id int(11) PKEY AUTOINCREEMENT,name varchar(30),rollno varchar(10) UNIQUE,pass varchar(255)  
+                            |
